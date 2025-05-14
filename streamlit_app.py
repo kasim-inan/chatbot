@@ -17,7 +17,7 @@ if not openai_api_key:
     st.info("Please add your OpenAI API key to continue.", icon="🗝️")
 else:
 
-    # Create an OpenAI client.
+    # Create an OpenAI/ pull from troyai21
     client = OpenAI(api_key=openai_api_key)
 
     # Create a session state variable to store the chat messages. This ensures that the
